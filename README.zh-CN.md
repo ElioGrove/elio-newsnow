@@ -41,6 +41,7 @@
 2. 导入至目标平台
 
 ### Cloudflare Pages 配置
+- Node.js：`24`（仓库通过 `.node-version` 和 `.nvmrc` 声明）。若控制台已设置 `NODE_VERSION`，也应改为 `24`，生产和预览环境保持一致。
 - 构建命令：`pnpm run build`
 - 输出目录：`dist/output/public`
 
@@ -83,7 +84,7 @@ docker compose up
 
 ## 开发
 > [!Note]
-> 需要 Node.js >= 20
+> 需要 Node.js >= 22.12，推荐使用仓库声明的 Node.js 24。
 
 ```bash
 corepack enable

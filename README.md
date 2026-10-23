@@ -95,7 +95,7 @@ You can also set Environment Variables in `docker-compose.yml`.
 ## Development
 
 > [!Note]
-> Requires Node.js >= 20
+> Requires Node.js >= 22.12. Node.js 24 is recommended and declared in `.node-version` and `.nvmrc`.
 
 ```sh
 corepack enable

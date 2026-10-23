@@ -84,7 +84,7 @@ docker compose up
 
 ## 開発
 > [!TIP]
-> Node.js >= 20が必要
+> Node.js >= 22.12 が必要です。`.node-version` と `.nvmrc` で指定した Node.js 24 を推奨します。
 
 ```sh
 corepack enable
