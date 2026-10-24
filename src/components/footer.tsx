@@ -7,6 +7,10 @@ export function Footer() {
         <a href={Author.url} target="_blank">
           {Author.name}
         </a>
+        .
+        {" "}
+        <a href="https://www.thus.chat/" target="_blank" rel="noopener noreferrer">ELIO AI LAB</a>
+        . Elio Grove
       </span>
     </>
   )
